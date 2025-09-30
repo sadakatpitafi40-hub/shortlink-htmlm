@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>My Short Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body { font-family: Arial, sans-serif; text-align:center; padding:50px; }
-    a { display:block; margin:10px; font-size:18px; color:#0066cc; text-decoration:none; }
+    body { font-family: Arial, sans-serif; text-align:center; padding:40px; background:#f7f7f7; }
+    .card { display:inline-block; text-align:left; padding:18px; border-radius:10px; background:#fff; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+    h1 { margin-top:0; }
+    a { display:block; margin:8px 0; color:#0b76ef; text-decoration:none; font-weight:600; }
     a:hover { text-decoration:underline; }
+    .note { color:#666; font-size:0.9rem; margin-top:12px; }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Short Links</h1>
-  <p>Choose a link below:</p>
-  <a href="s/link1.html">Short Link 1</a>
-  <a href="s/link2.html">Short Link 2</a>
-  <a href="s/link3.html">Short Link 3</a>
-  <a href="s/link4.html">Short Link 4</a>
-  <a href="s/link5.html">Short Link 5</a>
-  <a href="s/link6.html">Short Link 6</a>
-  <a href="s/link7.html">Short Link 7</a>
-  <a href="s/link8.html">Short Link 8</a>
-  <a href="s/link9.html">Short Link 9</a>
-  <a href="s/link10.html">Short Link 10</a>
+  <div class="card">
+    <h1>Welcome — My Short Links</h1>
+    <p>Click a short link below (or share it on WhatsApp to show preview).</p>
+
+    <a href="s/link1.html">Short Link 1</a>
+    <a href="s/link2.html">Short Link 2</a>
+    <a href="s/link3.html">Short Link 3</a>
+    <a href="s/link4.html">Short Link 4</a>
+    <a href="s/link5.html">Short Link 5</a>
+    <a href="s/link6.html">Short Link 6</a>
+    <a href="s/link7.html">Short Link 7</a>
+    <a href="s/link8.html">Short Link 8</a>
+    <a href="s/link9.html">Short Link 9</a>
+    <a href="s/link10.html">Short Link 10</a>
+
+    <div class="note">Tip: Edit each file in <code>s/</code> to change redirect URL, title, description, and images.</div>
+  </div>
 </body>
 </html>
