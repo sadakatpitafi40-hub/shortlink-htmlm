@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Short Link 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="My Short Link 1" />
+  <meta property="og:description" content="Demo description for link 1." />
+  <meta property="og:image" content="https://yourusername.github.io/shortlink-html/images/img1.jpg" />
+  <meta property="og:url" content="https://yourusername.github.io/shortlink-html/s/link1.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Auto Redirect after 2 seconds -->
+  <meta http-equiv="refresh" content="2;url=https://example.com/original1" />
+  <style>body{font-family:Arial,sans-serif;text-align:center;padding:20px}</style>
+</head>
+<body>
+  <h2>Redirecting in 2 seconds...</h2>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:700px;margin:18px auto;">
+    <img src="../images/img1.jpg" style="width:100%;border-radius:8px" alt="img1" />
+    <img src="../images/img2.jpg" style="width:100%;border-radius:8px" alt="img2" />
+  </div>
+
+  <p>If you are not redirected automatically, <a href="https://example.com/original1">click here</a>.</p>
+
+  <script>
+    setTimeout(function(){
+      window.location.href = "https://example.com/original1";
+    }, 2000);
+  </script>
+</body>
+</html>
